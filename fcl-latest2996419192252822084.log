@@ -1,0 +1,573 @@
+==================== Basic Information ====================
+FCL Version: 1.3.0.3
+Architecture: arm64
+Android SDK: 31
+Java Version: 25
+Renderer: Krypton Wrapper
+Summarize: Application error, unable to launch, exit code = -3
+==================== Basic Information ====================
+
+
+invoke redirectStdio
+invoke setLogPipeReady
+[FCL Internal] /home/runner/work/FoldCraftLauncher/FoldCraftLauncher/FCLauncher/src/main/jni/fcl/fcl_loader.c:130
+Log pipe ready.
+invoke setFCLNativeWindow
+invoke setEventPipe
+==================== Start Minecraft ====================
+Device: Huawei CTRN-AL20 CTR-AL20
+Architecture: arm64
+CPU: SM6225
+Android SDK: 31
+Language: zh_CN_#Hans
+FCL Version Code: 1303
+==================== Mods ====================
+
+==================== Env Map ====================
+Env: PATH=/data/user/0/com.tungsten.fcl/app_runtime/java/jre25/bin:/product/bin:/apex/com.android.runtime/bin:/apex/com.android.art/bin:/system_ext/bin:/system/bin:/system/xbin:/odm/bin:/vendor/bin:/vendor/xbin
+Env: FCL_VERSION_CODE=1303
+Env: POJAV_RENDERER=opengles3
+Env: POJAV_NATIVEDIR=/data/app/~~e1slc1-D2H4BJ21Ba3kjoA==/com.tungsten.fcl-8wZ--wCuHpKpUAbNQuT4hg==/lib/arm64
+Env: LIBGL_NOINTOVLHACK=1
+Env: FORCE_VSYNC=false
+Env: JAVA_HOME=/data/user/0/com.tungsten.fcl/app_runtime/java/jre25
+Env: MOD_ANDROID_RUNTIME=/data/user/0/com.tungsten.fcl/app_runtime_mod
+Env: LIBGL_USE_MC_COLOR=1
+Env: POJAVEXEC_EGL=libEGL.so
+Env: TMPDIR=/data/user/0/com.tungsten.fcl/cache
+Env: DLOPEN=libspirv-cross-c-shared.so
+Env: LIBGL_ES=3
+Env: FCL_NATIVEDIR=/data/app/~~e1slc1-D2H4BJ21Ba3kjoA==/com.tungsten.fcl-8wZ--wCuHpKpUAbNQuT4hg==/lib/arm64
+Env: DRIVER_PATH=/data/app/~~e1slc1-D2H4BJ21Ba3kjoA==/com.tungsten.fcl-8wZ--wCuHpKpUAbNQuT4hg==/lib/arm64
+Env: LD_LIBRARY_PATH=/system/lib64:/vendor/lib64:/vendor/lib64/hw:/system_ext/lib64:/data/user/0/com.tungsten.fcl/app_runtime/jna:/data/user/0/com.tungsten.fcl/app_runtime_mod:/data/app/~~e1slc1-D2H4BJ21Ba3kjoA==/com.tungsten.fcl-8wZ--wCuHpKpUAbNQuT4hg==/lib/arm64
+Env: LIBGL_GL=31
+Env: LIBGL_NOERROR=1
+Env: INST_FORGE=1
+Env: HOME=/storage/emulated/0/FCL/log
+Env: LIBGL_NORMALIZE=1
+==================== Env Map ====================
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libjli.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/server/libjvm.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libfreetype.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libverify.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libjava.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libnet.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libnio.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libawt.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libawt_headless.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libfontmanager.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libjimage.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libextnet.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libjli.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libawt_xawt.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libjavajpeg.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libawt_headless.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/liblcms.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libsctp.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libjsig.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/librmi.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libsleef.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libsyslookup.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libawt.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libdt_socket.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libinstrument.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libnet.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libmanagement.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libverify.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libjdwp.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/server/libjsig.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/server/libjvm.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libfreetype.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libprefs.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libmanagement_agent.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libjava.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libj2gss.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libjaas.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libmlib_image.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libmanagement_ext.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libfontmanager.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libjawt.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libj2pkcs11.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libnio.so
+DLOPEN: loading /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/libzip.so
+DLOPEN: loading /data/app/~~e1slc1-D2H4BJ21Ba3kjoA==/com.tungsten.fcl-8wZ--wCuHpKpUAbNQuT4hg==/lib/arm64/libopenal.so
+Initialising Krypton Wrapper
+v0.4.5 built on Apr 20 2026 20:22:45
+Switch to emulated basevertex implementation
+Using GLES 3.x backend
+loaded libGLESv3.so
+loaded libEGL.so
+Using GLES 3.x backend
+Hardware Full NPOT detected and used
+Extension GL_EXT_draw_buffers is in core ES3, and so used
+FBO are in core, and so used
+PointSprite are in core, and so used
+CubeMap are in core, and so used
+BlendColor is in core, and so used
+Blend Subtract is in core, and so used
+Blend Function and Equation Separation is in core, and so used
+Texture Mirrored Repeat is in core, and so used
+Extension GL_OES_element_index_uint  detected and used
+Extension GL_OES_packed_depth_stencil  detected and used
+Extension GL_OES_depth24  detected and used
+Extension GL_OES_rgb8_rgba8  detected and used
+Extension GL_EXT_blend_func_extended  detected
+Extension GL_EXT_texture_format_BGRA8888 never used
+Extension GL_OES_depth_texture  detected and used
+Extension GL_OES_texture_stencil8  detected and used
+Extension GL_OES_texture_float  detected and used
+Extension GL_OES_texture_half_float  detected and used
+Extension GL_EXT_color_buffer_float  detected and used
+Extension GL_EXT_color_buffer_half_float  detected and used
+high precision float in fragment shader available and used
+Max vertex attrib: 16
+Extension GL_OES_standard_derivatives  detected and used
+Extension GL_ARM_shader_framebuffer_fetch detected and used
+Extension GL_OES_get_program_binary  detected and used
+Number of supported Program Binary Format: 1
+Max texture size: 16384
+Max Varying Vector: 31
+Texture Units: 16/16 (hardware: 16), Max lights: 8, Max planes: 6
+Extension GL_EXT_texture_filter_anisotropic  detected and used
+Max Anisotropic filtering: 16
+Hardware vendor is Qualcomm
+GLSL 300 es supported
+GLSL 310 es supported
+GLSL 320 es supported
+Max Color Attachments: 8 / Draw buffers: 8
+sRGB surface supported
+EGLImage to Texture2D supported
+EGLImage to RenderBuffer supported
+AutoMipMap forced
+glGetError() always return GL_NOERROR
+Targeting OpenGL 3.1
+Target OpenGL Version: 3.1 §aKrypton Wrapper §bRelease 0.4.5§r
+No hack in shader converter to define overloaded function with int
+Not trying to batch small subsequent glDrawXXXX
+Trying to use VBO
+Force texture for Attachment color0 on FBO
+Hack to trigger a SwapBuffers when a Full Framebuffer Blit on default FBO is done
+Force normals to be normalized on FPE shaders
+glX Will try to recycle EGL Surface
+Current folder is:/
+DLOPEN: loading /data/app/~~e1slc1-D2H4BJ21Ba3kjoA==/com.tungsten.fcl-8wZ--wCuHpKpUAbNQuT4hg==/lib/arm64/libng_gl4es.so
+Working directory: /storage/emulated/0/FCL/.minecraft/versions/26.3-Forge
+==================== Minecraft Arguments ====================
+Java argument: /data/user/0/com.tungsten.fcl/app_runtime/java/jre25/bin/java
+Java argument: -Djava.awt.headless=false
+Java argument: -Dcacio.managed.screensize=1520x720
+Java argument: -Dcacio.font.fontmanager=sun.awt.X11FontManager
+Java argument: -Dcacio.font.fontscaler=sun.font.FreetypeFontScaler
+Java argument: -Dswing.defaultlaf=javax.swing.plaf.nimbus.NimbusLookAndFeel
+Java argument: -Dawt.toolkit=com.github.caciocavallosilano.cacio.ctc.CTCToolkit
+Java argument: -Djava.awt.graphicsenv=com.github.caciocavallosilano.cacio.ctc.CTCGraphicsEnvironment
+Java argument: -javaagent:/data/user/0/com.tungsten.fcl/app_runtime/caciocavallo17/cacio-agent.jar
+Java argument: --add-exports=java.desktop/java.awt=ALL-UNNAMED
+Java argument: --add-exports=java.desktop/java.awt.peer=ALL-UNNAMED
+Java argument: --add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+Java argument: --add-exports=java.desktop/sun.java2d=ALL-UNNAMED
+Java argument: --add-exports=java.desktop/java.awt.dnd.peer=ALL-UNNAMED
+Java argument: --add-exports=java.desktop/sun.awt=ALL-UNNAMED
+Java argument: --add-exports=java.desktop/sun.awt.event=ALL-UNNAMED
+Java argument: --add-exports=java.desktop/sun.awt.datatransfer=ALL-UNNAMED
+Java argument: --add-exports=java.desktop/sun.font=ALL-UNNAMED
+Java argument: --add-exports=java.base/sun.security.action=ALL-UNNAMED
+Java argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Java argument: --add-opens=java.desktop/java.awt=ALL-UNNAMED
+Java argument: --add-opens=java.desktop/sun.font=ALL-UNNAMED
+Java argument: --add-opens=java.desktop/sun.java2d=ALL-UNNAMED
+Java argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+Java argument: --add-opens=java.base/java.net=ALL-UNNAMED
+Java argument: -Xbootclasspath/a:/data/user/0/com.tungsten.fcl/app_runtime/caciocavallo17/cacio-agent.jar:/data/user/0/com.tungsten.fcl/app_runtime/caciocavallo17/cacio-shared-1.19.1-SNAPSHOT.jar:/data/user/0/com.tungsten.fcl/app_runtime/caciocavallo17/cacio-tta-1.19.1-SNAPSHOT.jar
+Java argument: -Xmx2384m
+Java argument: -Xms2048m
+Java argument: -Dfile.encoding=UTF-8
+Java argument: -Dstdout.encoding=UTF-8
+Java argument: -Dstderr.encoding=UTF-8
+Java argument: -Djava.rmi.server.useCodebaseOnly=true
+Java argument: -Dcom.sun.jndi.rmi.object.trustURLCodebase=false
+Java argument: -Dcom.sun.jndi.cosnaming.object.trustURLCodebase=false
+Java argument: -Dlog4j2.formatMsgNoLookups=true
+Java argument: -Dlog4j.configurationFile=/storage/emulated/0/FCL/.minecraft/versions/26.3-Forge/log4j2.xml
+Java argument: -Dminecraft.client.jar=/storage/emulated/0/FCL/.minecraft/versions/26.3-Forge/26.3-Forge.jar
+Java argument: -XX:ActiveProcessorCount=8
+Java argument: -Dfml.ignoreInvalidMinecraftCertificates=true
+Java argument: -Dfml.ignorePatchDiscrepancies=true
+Java argument: -Dext.net.resolvPath=/data/user/0/com.tungsten.fcl/app_runtime/java/resolv.conf
+Java argument: -Djava.io.tmpdir=/data/user/0/com.tungsten.fcl/cache/fclauncher
+Java argument: -Dos.name=Linux
+Java argument: -Dos.version=Android-12
+Java argument: -Dorg.lwjgl.opengl.libname=libng_gl4es.so
+Java argument: -Dorg.lwjgl.freetype.libname=/data/app/~~e1slc1-D2H4BJ21Ba3kjoA==/com.tungsten.fcl-8wZ--wCuHpKpUAbNQuT4hg==/lib/arm64/libfreetype.so
+Java argument: -Dfml.earlyprogresswindow=false
+Java argument: -Dglfwstub.windowWidth=1520
+Java argument: -Dglfwstub.windowHeight=720
+Java argument: -Dglfwstub.initEgl=false
+Java argument: -Dloader.disable_forked_guis=true
+Java argument: -Duser.home=/storage/emulated/0/FCL/.minecraft
+Java argument: -Duser.language=zh
+Java argument: -Duser.country=CN
+Java argument: -Duser.timezone=Asia/Shanghai
+Java argument: -Dorg.lwjgl.vulkan.libname=libvulkan.so
+Java argument: -Dorg.lwjgl.spvc.libname=spirv-cross-c-shared
+Java argument: -Dsodium.checks.issue2561=false
+Java argument: -Djdk.lang.Process.launchMechanism=FORK
+Java argument: -Dcpu.name=SM6225
+Java argument: -Djna.boot.library.path=/data/user/0/com.tungsten.fcl/app_runtime/jna/5.17.0
+Java argument: -javaagent:/data/user/0/com.tungsten.fcl/files/plugins/MioLibPatcher.jar
+Java argument: -XX:StackShadowPages=32
+Java argument: --enable-native-access=ALL-UNNAMED
+Java argument: --add-exports
+Java argument: java.base/jdk.internal.misc=ALL-UNNAMED
+Java argument: -Djava.library.path=/data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib:/data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/jli:/data/user/0/com.tungsten.fcl/app_runtime/java/jre25/lib/server:/system/lib64:/vendor/lib64:/vendor/lib64/hw:/system_ext/lib64:/data/user/0/com.tungsten.fcl/app_runtime/jna:/data/user/0/com.tungsten.fcl/app_runtime_mod:/data/app/~~e1slc1-D2H4BJ21Ba3kjoA==/com.tungsten.fcl-8wZ--wCuHpKpUAbNQuT4hg==/lib/arm64
+Java argument: -Djna.tmpdir=/data/user/0/com.tungsten.fcl/cache/fclauncher/jna
+Java argument: -Dorg.lwjgl.system.SharedLibraryExtractPath=/data/user/0/com.tungsten.fcl/cache/fclauncher/lwjgl
+Java argument: -Dio.netty.native.workdir=/data/user/0/com.tungsten.fcl/cache/fclauncher/netty
+Java argument: -Dminecraft.launcher.brand=Fold Craft Launcher
+Java argument: -Dminecraft.launcher.version=1.3.0.3
+Java argument: -cp
+Java argument: /data/user/0/com.tungsten.fcl/app_runtime/lwjgl/lwjgl.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/forge/26.3-66.1.8/forge-26.3-66.1.8-universal.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/forge/26.3-66.1.8/forge-26.3-66.1.8-client.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/JarJarFileSystems/0.4.2/JarJarFileSystems-0.4.2.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/roimfs/1.0.0/roimfs-1.0.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/securemodules/2.2.24/securemodules-2.2.24.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/unsafe/0.9.2/unsafe-0.9.2.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/bootstrap/2.1.8/bootstrap-2.1.8.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/bootstrap-api/2.1.8/bootstrap-api-2.1.8.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/accesstransformers/8.2.17/accesstransformers-8.2.17.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/eventbus/7.0.6/eventbus-7.0.6.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/jspecify/jspecify/1.0.1/jspecify-1.0.1.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/forgespi/8.0.0/forgespi-8.0.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/coremods-api/5.3.1/coremods-api-5.3.1.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/modlauncher/10.2.6/modlauncher-10.2.6.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/mergetool-api/1.0/mergetool-api-1.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/electronwill/night-config/toml/3.7.4/toml-3.7.4.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/electronwill/night-config/core/3.7.4/core-3.7.4.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/apache/maven/maven-artifact/3.8.8/maven-artifact-3.8.8.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/jline/jline-reader/3.25.1/jline-reader-3.25.1.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/jline/jline-terminal/3.25.1/jline-terminal-3.25.1.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/jline/jline-terminal-jna/3.25.1/jline-terminal-jna-3.25.1.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar:/storage/emulated/0/FCL/.minecraft/libraries/io/github/llamalad7/mixinextras-forge/0.5.4/mixinextras-forge-0.5.4.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/JarJarSelector/0.4.2/JarJarSelector-0.4.2.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/JarJarMetadata/0.4.2/JarJarMetadata-0.4.2.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/fmlcore/26.3-66.1.8/fmlcore-26.3-66.1.8.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/fmlloader/26.3-66.1.8/fmlloader-26.3-66.1.8.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/fmlearlydisplay/26.3-66.1.8/fmlearlydisplay-26.3-66.1.8.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/javafmllanguage/26.3-66.1.8/javafmllanguage-26.3-66.1.8.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/lowcodelanguage/26.3-66.1.8/lowcodelanguage-26.3-66.1.8.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/mclanguage/26.3-66.1.8/mclanguage-26.3-66.1.8.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/minecraftforge/forge-transformers/26.3-66.1.8/forge-transformers-26.3-66.1.8.jar:/storage/emulated/0/FCL/.minecraft/libraries/at/yawk/lz4/lz4-java/1.10.1/lz4-java-1.10.1.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/mojang/authlib/10.0.77/authlib-10.0.77.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/mojang/logging/1.7.12/logging-1.7.12.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/storage/emulated/0/FCL/.minecraft/libraries/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar:/storage/emulated/0/FCL/.minecraft/libraries/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/io/netty/netty-buffer/4.2.16.Final/netty-buffer-4.2.16.Final.jar:/storage/emulated/0/FCL/.minecraft/libraries/io/netty/netty-codec-base/4.2.16.Final/netty-codec-base-4.2.16.Final.jar:/storage/emulated/0/FCL/.minecraft/libraries/io/netty/netty-codec-compression/4.2.16.Final/netty-codec-compression-4.2.16.Final.jar:/storage/emulated/0/FCL/.minecraft/libraries/io/netty/netty-codec-http/4.2.16.Final/netty-codec-http-4.2.16.Final.jar:/storage/emulated/0/FCL/.minecraft/libraries/io/netty/netty-common/4.2.16.Final/netty-common-4.2.16.Final.jar:/storage/emulated/0/FCL/.minecraft/libraries/io/netty/netty-handler/4.2.16.Final/netty-handler-4.2.16.Final.jar:/storage/emulated/0/FCL/.minecraft/libraries/io/netty/netty-resolver/4.2.16.Final/netty-resolver-4.2.16.Final.jar:/storage/emulated/0/FCL/.minecraft/libraries/io/netty/netty-transport-classes-epoll/4.2.16.Final/netty-transport-classes-epoll-4.2.16.Final.jar:/storage/emulated/0/FCL/.minecraft/libraries/io/netty/netty-transport-classes-kqueue/4.2.16.Final/netty-transport-classes-kqueue-4.2.16.Final.jar:/storage/emulated/0/FCL/.minecraft/libraries/io/netty/netty-transport-native-unix-common/4.2.16.Final/netty-transport-native-unix-common-4.2.16.Final.jar:/storage/emulated/0/FCL/.minecraft/libraries/io/netty/netty-transport/4.2.16.Final/netty-transport-4.2.16.Final.jar:/storage/emulated/0/FCL/.minecraft/libraries/it/unimi/dsi/fastutil/8.5.18/fastutil-8.5.18.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.26.0/log4j-api-2.26.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.26.0/log4j-core-2.26.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.26.0/log4j-slf4j2-impl-2.26.0.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/joml/joml/1.10.9/joml-1.10.9.jar:/storage/emulated/0/FCL/.minecraft/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/data/user/0/com.tungsten.fcl/files/plugins/MioLaunchWrapper.jar:/storage/emulated/0/FCL/.minecraft/versions/26.3-Forge/26.3-Forge.jar
+Java argument: -Djava.net.preferIPv6Addresses=system
+Java argument: -XX:+UseCompactObjectHeaders
+Java argument: -XX:StackShadowPages=32
+Java argument: --add-exports
+Java argument: net.minecraftforge.bootstrap/net.minecraftforge.bootstrap=ALL-UNNAMED
+MainClass: mio.Wrapper
+MainClass: net.minecraftforge.bootstrap.ForgeBootstrap
+Minecraft argument: --username
+Minecraft argument: JOJO
+Minecraft argument: --version
+Minecraft argument: 26.3-Forge
+Minecraft argument: --gameDir
+Minecraft argument: /storage/emulated/0/FCL/.minecraft/versions/26.3-Forge
+Minecraft argument: --assetsDir
+Minecraft argument: /storage/emulated/0/FCL/.minecraft/assets
+Minecraft argument: --assetIndex
+Minecraft argument: 34
+Minecraft argument: --uuid
+Minecraft argument: 99d1b68ea26130b9ac9e09cf27ae3228
+Minecraft argument: --accessToken
+Minecraft argument: ***
+Minecraft argument: --clientId
+Minecraft argument: ${clientid}
+Minecraft argument: --xuid
+Minecraft argument: ${auth_xuid}
+Minecraft argument: --versionType
+Minecraft argument: Fold Craft Launcher
+Minecraft argument: --width
+Minecraft argument: 1520
+Minecraft argument: --height
+Minecraft argument: 720
+Minecraft argument: --launchTarget
+Minecraft argument: forge_client
+Hook success
+[FCL Internal] /home/runner/work/FoldCraftLauncher/FoldCraftLauncher/FCLauncher/src/main/jni/jre_launcher.c:220
+Done processing args
+[FCL Internal] /home/runner/work/FoldCraftLauncher/FoldCraftLauncher/FCLauncher/src/main/jni/jre_launcher.c:146
+Found JLI lib
+[FCL Internal] /home/runner/work/FoldCraftLauncher/FoldCraftLauncher/FCLauncher/src/main/jni/jre_launcher.c:158
+Calling JLI_Launch
+[MioLibPatcher/INFO]: MioPatcher is running!
+[21:45:23] [main/INFO]: ModLauncher running: args [--username, JOJO, --version, 26.3-Forge, --gameDir, /storage/emulated/0/FCL/.minecraft/versions/26.3-Forge, --assetsDir, /storage/emulated/0/FCL/.minecraft/assets, --assetIndex, 34, --uuid, 99d1b68ea26130b9ac9e09cf27ae3228, --accessToken, **********, --clientId, ${clientid}, --xuid, ${auth_xuid}, --versionType, Fold Craft Launcher, --width, 1520, --height, 720, --launchTarget, forge_client]
+[21:45:23] [main/INFO]: JVM identified as Oracle Corporation OpenJDK 64-Bit Server VM 25.0.3-internal-adhoc.runner.openjdk
+[21:45:23] [main/INFO]: ModLauncher 10.2.6 starting: java version 25.0.3-internal by N/A; OS Linux arch aarch64 version Android-12
+[MioLibPatcher/INFO]: Patch target class: net/minecraftforge/fml/loading/ModDirTransformerDiscoverer
+[21:45:24] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[21:45:24] [main/INFO]: ImmediateWindowProvider fmlearlywindow does not support peng, switching to dummyprovider
+[21:45:24] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///storage/emulated/0/FCL/.minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=CLIENT
+[21:45:24] [main/INFO]: Found mod file forge-26.3-66.1.8-client.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@2b97cc1f
+[21:45:25] [main/INFO]: Found mod file forge-26.3-66.1.8-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@3fae596
+[21:45:25] [main/INFO]: Found mod file fmlcore-26.3-66.1.8.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@3fae596
+[21:45:25] [main/INFO]: Found mod file lowcodelanguage-26.3-66.1.8.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@3fae596
+[21:45:25] [main/INFO]: Found mod file javafmllanguage-26.3-66.1.8.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@3fae596
+[21:45:25] [main/INFO]: Found mod file mclanguage-26.3-66.1.8.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@3fae596
+[21:45:25] [main/INFO]: No dependencies to load found. Skipping!
+[21:45:26] [main/INFO]: Launching target 'forge_client' with arguments [--version, 26.3-Forge, --gameDir, /storage/emulated/0/FCL/.minecraft/versions/26.3-Forge, --assetsDir, /storage/emulated/0/FCL/.minecraft/assets, --uuid, 99d1b68ea26130b9ac9e09cf27ae3228, --username, JOJO, --assetIndex, 34, --accessToken, **********, --clientId, ${clientid}, --xuid, ${auth_xuid}, --versionType, Fold Craft Launcher, --width, 1520, --height, 720]
+[MioLibPatcher/INFO]: Patch target class: org/lwjgl/system/Library
+[LWJGL] Failed to load a library. Possible solutions:
+	a) Add the directory that contains the shared library to -Djava.library.path or -Dorg.lwjgl.librarypath.
+	b) Add the JAR that contains the shared library to the classpath.
+[LWJGL] Enable debug mode with -Dorg.lwjgl.util.Debug=true for better diagnostics.
+Registered forkAndExec
+LwjglLinkerHook:Installing LWJGL dlopen() hook
+EGLBridge: LWJGL-side Vulkan loader requested the Vulkan handle
+AdrenoSupp: Loaded Turnip, loader address: 0xe9732bfdb48f3df5
+[MioLibPatcher/INFO]: Patch target class: oshi/hardware/CentralProcessor$ProcessorIdentifier
+[21:45:28] [main/WARN]: Did not find udev library in operating system. Some features may not work.
+[21:45:29] [main/WARN]: File not found or not readable: /proc/stat
+[21:45:30] [main/WARN]: File not found or not readable: /etc/os-release
+[21:45:31] [main/WARN]: File not found or not readable: /etc/lsb-release
+[21:45:31] [main/WARN]: File not found or not readable: /proc/version
+[21:45:31] [main/WARN]: Failed to get system info for SDL Platform
+java.lang.NoClassDefFoundError: org/lwjgl/sdl/SDLPlatform
+	at TRANSFORMER/minecraft@26.3/com.mojang.blaze3d.platform.Window.getPlatform(Window.java:143)
+	at TRANSFORMER/minecraft@26.3/net.minecraft.SystemReport.setDetail(SystemReport.java:96)
+	at TRANSFORMER/minecraft@26.3/net.minecraft.client.Minecraft.fillSystemReport(Minecraft.java:2547)
+	at TRANSFORMER/minecraft@26.3/net.minecraft.client.Minecraft.fillReport(Minecraft.java:2494)
+	at TRANSFORMER/minecraft@26.3/net.minecraft.client.main.Main.main(Main.java:135)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@26.3-66.1.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@26.3-66.1.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:84)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:104)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.Launcher.run(Launcher.java:151)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.Launcher.main(Launcher.java:110)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at mio.Wrapper.main(Wrapper.java:21)
+Caused by: java.lang.ClassNotFoundException: org.lwjgl.sdl.SDLPlatform
+	at cpw.mods.securejarhandler/net.minecraftforge.securemodules.SecureModuleClassLoader.loadClass(SecureModuleClassLoader.java:454)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	... 23 more
+---- Minecraft Crash Report ----
+// Ooh. Shiny.
+
+Time: 2026-11-14 21:45:32
+Description: Loading library SDL
+
+java.lang.NoClassDefFoundError: org/lwjgl/sdl/SDL
+	at TRANSFORMER/minecraft@26.3/com.mojang.blaze3d.platform.NativeLibrariesBootstrap.loadSdl(NativeLibrariesBootstrap.java:283) ~[forge-26.3-66.1.8-client.jar!/:?]
+	at TRANSFORMER/minecraft@26.3/com.mojang.blaze3d.platform.NativeLibrariesBootstrap.loadLibrary(NativeLibrariesBootstrap.java:200) ~[forge-26.3-66.1.8-client.jar!/:?]
+	at TRANSFORMER/minecraft@26.3/com.mojang.blaze3d.platform.NativeLibrariesBootstrap.loadLibraries(NativeLibrariesBootstrap.java:104) ~[forge-26.3-66.1.8-client.jar!/:?]
+	at TRANSFORMER/minecraft@26.3/net.minecraft.client.main.Main.main(Main.java:130) [forge-26.3-66.1.8-client.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@26.3-66.1.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) [fmlloader-26.3-66.1.8.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@26.3-66.1.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) [fmlloader-26.3-66.1.8.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:84) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:104) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.Launcher.run(Launcher.java:151) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.Launcher.main(Launcher.java:110) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.6.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at mio.Wrapper.main(Wrapper.java:21) [MioLaunchWrapper.jar:?]
+Caused by: java.lang.ClassNotFoundException: org.lwjgl.sdl.SDL
+	at cpw.mods.securejarhandler/net.minecraftforge.securemodules.SecureModuleClassLoader.loadClass(SecureModuleClassLoader.java:454) ~[securemodules-2.2.24.jar!/:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	... 22 more
+Transformer Audit:
+  com.mojang.blaze3d.platform.NativeLibrariesBootstrap
+    REASON: classloading
+  net.minecraft.client.main.Main
+    REASON: classloading
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Suspected Mods: NONE
+Stacktrace:
+	at TRANSFORMER/minecraft@26.3/com.mojang.blaze3d.platform.NativeLibrariesBootstrap.loadSdl(NativeLibrariesBootstrap.java:283) ~[forge-26.3-66.1.8-client.jar!/:?]
+	at TRANSFORMER/minecraft@26.3/com.mojang.blaze3d.platform.NativeLibrariesBootstrap.loadLibrary(NativeLibrariesBootstrap.java:200) ~[forge-26.3-66.1.8-client.jar!/:?]
+	at TRANSFORMER/minecraft@26.3/com.mojang.blaze3d.platform.NativeLibrariesBootstrap.loadLibraries(NativeLibrariesBootstrap.java:104) ~[forge-26.3-66.1.8-client.jar!/:?]
+Transformer Audit:
+  com.mojang.blaze3d.platform.NativeLibrariesBootstrap
+    REASON: classloading
+-- Library directory contents --
+Details:
+	Contents of java.library.path : <not a directory>
+	Contents of org.lwjgl.librarypath: <not set>
+	LWJGL platform: LINUX
+	LWJGL architecture: ARM64
+Stacktrace:
+	at TRANSFORMER/minecraft@26.3/com.mojang.blaze3d.platform.NativeLibrariesBootstrap.loadLibrary(NativeLibrariesBootstrap.java:200) ~[forge-26.3-66.1.8-client.jar!/:?]
+	at TRANSFORMER/minecraft@26.3/com.mojang.blaze3d.platform.NativeLibrariesBootstrap.loadLibraries(NativeLibrariesBootstrap.java:104) ~[forge-26.3-66.1.8-client.jar!/:?]
+	at TRANSFORMER/minecraft@26.3/net.minecraft.client.main.Main.main(Main.java:130) [forge-26.3-66.1.8-client.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@26.3-66.1.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) [fmlloader-26.3-66.1.8.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@26.3-66.1.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) [fmlloader-26.3-66.1.8.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:84) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:104) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.Launcher.run(Launcher.java:151) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.Launcher.main(Launcher.java:110) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.6.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at mio.Wrapper.main(Wrapper.java:21) [MioLaunchWrapper.jar:?]
+Transformer Audit:
+  com.mojang.blaze3d.platform.NativeLibrariesBootstrap
+    REASON: classloading
+  net.minecraft.client.main.Main
+    REASON: classloading
+
+
+-- LWJGL debug log --
+Details:
+	Log: [LWJGL] Failed to load a library. Possible solutions:
+	a) Add the directory that contains the shared library to -Djava.library.path or -Dorg.lwjgl.librarypath.
+	b) Add the JAR that contains the shared library to the classpath.
+[LWJGL] Enable debug mode with -Dorg.lwjgl.util.Debug=true for better diagnostics.
+
+Stacktrace:
+	at TRANSFORMER/minecraft@26.3/com.mojang.blaze3d.platform.NativeLibrariesBootstrap.loadLibrary(NativeLibrariesBootstrap.java:200) ~[forge-26.3-66.1.8-client.jar!/:?]
+	at TRANSFORMER/minecraft@26.3/com.mojang.blaze3d.platform.NativeLibrariesBootstrap.loadLibraries(NativeLibrariesBootstrap.java:104) ~[forge-26.3-66.1.8-client.jar!/:?]
+	at TRANSFORMER/minecraft@26.3/net.minecraft.client.main.Main.main(Main.java:130) [forge-26.3-66.1.8-client.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@26.3-66.1.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) [fmlloader-26.3-66.1.8.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@26.3-66.1.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) [fmlloader-26.3-66.1.8.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:84) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:104) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.Launcher.run(Launcher.java:151) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.Launcher.main(Launcher.java:110) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.6.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at mio.Wrapper.main(Wrapper.java:21) [MioLaunchWrapper.jar:?]
+Transformer Audit:
+  com.mojang.blaze3d.platform.NativeLibrariesBootstrap
+    REASON: classloading
+  net.minecraft.client.main.Main
+    REASON: classloading
+
+
+-- Libraries loaded --
+Details:
+	Loading order: OpenGL,STB,shaderc,SDL,OpenAL,spvc,freetype,vma
+	Loading index: 3
+Stacktrace:
+	at TRANSFORMER/minecraft@26.3/com.mojang.blaze3d.platform.NativeLibrariesBootstrap.loadLibraries(NativeLibrariesBootstrap.java:104) ~[forge-26.3-66.1.8-client.jar!/:?]
+	at TRANSFORMER/minecraft@26.3/net.minecraft.client.main.Main.main(Main.java:130) [forge-26.3-66.1.8-client.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@26.3-66.1.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) [fmlloader-26.3-66.1.8.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@26.3-66.1.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) [fmlloader-26.3-66.1.8.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:84) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:104) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.Launcher.run(Launcher.java:151) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.Launcher.main(Launcher.java:110) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.6.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at mio.Wrapper.main(Wrapper.java:21) [MioLaunchWrapper.jar:?]
+Transformer Audit:
+  com.mojang.blaze3d.platform.NativeLibrariesBootstrap
+    REASON: classloading
+  net.minecraft.client.main.Main
+    REASON: classloading
+
+
+-- Initialization --
+Details:
+	Modules: 
+Stacktrace:
+	at TRANSFORMER/minecraft@26.3/net.minecraft.client.main.Main.main(Main.java:130) [forge-26.3-66.1.8-client.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@26.3-66.1.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) [fmlloader-26.3-66.1.8.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@26.3-66.1.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) [fmlloader-26.3-66.1.8.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:84) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:104) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.Launcher.run(Launcher.java:151) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.Launcher.main(Launcher.java:110) [modlauncher-10.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.6/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.6.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at mio.Wrapper.main(Wrapper.java:21) [MioLaunchWrapper.jar:?]
+Transformer Audit:
+  net.minecraft.client.main.Main
+    REASON: classloading
+
+
+-- System Details --
+Details:
+	Minecraft Version: 26.3
+	Minecraft Version ID: 26.3
+	Operating System: Linux (aarch64) version Android-12
+	Java Version: 25.0.3-internal, N/A
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 2057857608 bytes (1962 MiB) / 2147483648 bytes (2048 MiB) up to 2499805184 bytes (2384 MiB)
+	Memory (heap): init: 2048MiB, used: 083MiB, committed: 2048MiB, max: 2384MiB
+	Memory (non-heap): init: 007MiB, used: 051MiB, committed: 055MiB, max: 000MiB
+	CPUs: 8
+	Processor Vendor: ARM
+	Processor Name: SM6225
+	Identifier: 0x41 Family 8 Model 0xd09 Stepping r10p4
+	Microarchitecture: unknown
+	Frequency (GHz): -0.00
+	Number of physical packages: 2
+	Number of physical CPUs: 8
+	Number of logical CPUs: 8
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 9967.27
+	Virtual memory used (MiB): 6759.55
+	Swap memory total (MiB): 6144.00
+	Swap memory used (MiB): 1406.78
+	Space in storage for jna.tmpdir (MiB): available: 100885.95, total: 230026.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 100885.95, total: 230026.00
+	Space in storage for io.netty.native.workdir (MiB): available: 100885.95, total: 230026.00
+	Space in storage for java.io.tmpdir (MiB): available: 100885.95, total: 230026.00
+	Space in storage for workdir (MiB): available: 100885.95, total: 230026.00
+	Operating System Version: Linux Unknown unknown (unknown)
+	Process Elevated: false
+	Process Loads: Uptime: 0s, user: 204s (20381000.00%), kernel: 49s (4886000.00%), total: 253s (25267000.00%)
+	Process Virtual Size (MiB): 12379.26
+	Process Resident Size (MiB): 696.05
+	JVM Flags: 7 total; -Xbootclasspath/a:/data/user/0/com.tungsten.fcl/app_runtime/caciocavallo17/cacio-agent.jar:/data/user/0/com.tungsten.fcl/app_runtime/caciocavallo17/cacio-shared-1.19.1-SNAPSHOT.jar:/data/user/0/com.tungsten.fcl/app_runtime/caciocavallo17/cacio-tta-1.19.1-SNAPSHOT.jar -Xmx2384m -Xms2048m -XX:ActiveProcessorCount=8 -XX:StackShadowPages=32 -XX:+UseCompactObjectHeaders -XX:StackShadowPages=32
+	Debug Flags: 0 total; 
+	Launched Version: 26.3-Forge
+	Launcher name: Fold Craft Launcher
+	Backend library: LWJGL version 3.3.6-snapshot
+	Window size: <not initialized>
+	Surface Info: <no surface>
+	SDL Platform: ~~ERROR~~ NoClassDefFoundError: org/lwjgl/sdl/SDLPlatform
+	Graphics Device: <none>
+	GL debug messages: <no renderer available>
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Universe: 404
+	Type: Client
+	Locale: zh_CN
+	System encoding: UTF-8
+	File encoding: UTF-8
+	CPU: 8x SM6225
+	Mod List: 
+		forge-26.3-66.1.8-client.jar                      |Minecraft                     |minecraft                     |26.3                |NONE      |Manifest: NOSIGNATURE
+		forge-26.3-66.1.8-universal.jar                   |Forge                         |forge                         |66.1.8              |NONE      |Manifest: 84:CE:76:E8:45:35:E4:0E:63:86:DF:47:59:80:0F:67:6C:C1:5F:6E:5F:4D:B3:54:47:1A:9F:7F:ED:5E:F2:90
+#@!@# Game crashed! Crash report saved to: #@!@# /storage/emulated/0/FCL/.minecraft/versions/26.3-Forge/crash-reports/crash-2026-11-14_21.45.32-client.txt
+OpenJDK exited with code : -3
